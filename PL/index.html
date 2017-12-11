@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="css/style.css" type="text/css" />
+		<script type="text/javascript" src="js/puzzles.js"></script>
+		<script type="text/javascript" src="js/hangman.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=Inconsolata&amp;subset=latin-ext" rel="stylesheet">
+	</head>
+	<body>
+	<div id="container">
+		<br>
+		<a href="../index.html" style="text-decoration: none; color: #eeeeee;">wisielec 1.0</a> <input type="button" value="Nowa Gra" onClick="window.location.reload()" id="newGameBtn" style="float: right; padding-left: 20px; padding-right: 20px; margin-right: 50px;"> <br>
+		<div id="category"><p><h5>Kategoria: Przysłowia i Powiedzenia</h5></p></div> 
+		<div id="board"></div>
+		<div id="gibbet">
+			<img src="img/s0.jpg" alt="" id="gibbetImg" />błędy: 0/9
+		</div>
+		<div id="alphabet"></div>		
+		<div style="clear:both;"></div>	
+		<div class="btn" onclick="solution()" id="solutionBtn">Podaj rozwiazanie</div>
+	</div>
+	</body>
+</html>

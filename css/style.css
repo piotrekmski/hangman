@@ -1,0 +1,183 @@
+body
+{
+	background-color: #000000;
+	color:lightgray;
+	font-size: 28px;
+	font-family: 'Inconsolata', monospace;
+	font-weight: 700;
+}
+@font-face {
+    font-family: 'jfwildwoodregular';
+    src: url('../css/fonts/jfwilwod-webfont.woff2') format('woff2'),
+         url('../css/fonts/jfwilwod-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+h1 {
+	font-family: 'jfwildwoodregular', Arial, sans-serif;
+	font-weight:normal;
+	font-style:normal;
+    font-size: 140px;
+    line-height: 1em;
+    padding: 0;
+    letter-spacing: -.02em;
+    color: #d1d1d1;
+    text-align: center;
+    
+    text-shadow:5px 5px 10px grey;
+
+}
+h2 {
+	margin: 0 auto;
+	text-align: center;
+}
+
+h2 a{
+	text-decoration: none;
+	color: #d1d1d1;
+
+}
+h2 a:hover {
+
+	color: #ffffff;
+}
+
+
+h1, h2 {   
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 14s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: 1; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 14s;
+    animation-iteration-count: 1;
+}
+/*Mozilla*/
+@-moz-keyframes example {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+    0%   {opacity: 0;}
+    100% {opacity: 1;}
+/* Standard syntax */
+@keyframes example {
+    0%   {opacity: 0;} 
+    100% {opacity: 1;}
+}
+#container
+{
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#board
+{
+	width: 850px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	text-align: center;
+	font-size: 48px;
+	min-height: 100px
+	
+}
+
+#question
+{
+	width: 900px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	text-align: center;
+	font-size: 48px;
+	min-height: 60px
+	
+}
+
+#gibbet
+{
+	float: left;
+	width: 450px;
+	text-align:center;
+	min-height: 280px
+
+}
+
+#alphabet
+{
+	float:left;
+	width: 450px;
+	text-align: center;
+	min-height: 280px;
+}
+
+.letter
+{
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	padding: 5px;
+	margin: 5px;
+	border: 3px solid gray;
+	float: left;
+	cursor: pointer;
+	border-radius: 15px;
+}
+
+.letter:hover
+{
+	background-color: #222222;
+	color: white;
+	border:3px solid white;
+}
+
+
+.btn
+{
+	width: 366px;
+	height: 31px;
+	text-align: center;
+	padding: 5px;
+	
+	border: 3px solid gray;
+	float:right;
+	cursor: pointer;
+	border-radius: 15px;
+	display: table;
+    /*margin: 0 auto;*/
+    
+
+    margin-right: 63px; margin-top: -40px;
+}
+
+.btn:hover
+{
+	background-color: #222222;
+	color: white;
+	border:3px solid white;
+}
+
+.reset
+{
+	color: green;
+	cursor: pointer;
+	font-size:white;
+	
+}
+
+.reset:hover
+{
+	color:white;
+}
+
+#gibbetImg
+{
+	margin-top: 15px;
+}
+
+#newGameBtn {
+	
+	padding: 5px;
+}
+

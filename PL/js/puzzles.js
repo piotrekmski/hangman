@@ -1,0 +1,16 @@
+var puzzles = new Array(15);
+puzzles[0] = "Czego Jaś się nie nauczy tego Jan nie będzie umiał";
+puzzles[1] = "Gdy się człowiek spieszy to się diabeł cieszy";
+puzzles[2] = "Jak się nie ma co się lubi to się lubi co się ma";
+puzzles[3] = "Jak sobie pościelesz tak się wyśpisz";
+puzzles[4] = "Kto pod kim dołki kopie ten sam w nie wpada";
+puzzles[5] = "Lepsza byle jaka prawda niż dobre kłamstwo";
+puzzles[6] = "Nie chce góra przyjść do Mahometa musi Mahomet przyjść do góry";
+puzzles[7] = "Gdzie kucharek sześć tam nie ma co jeść";
+puzzles[8] = "Lepszy wróbel w garści niż gołąb na dachu";
+puzzles[9] = "Groźniejsze jest wojsko jeleni przy lwie hetmanie niż wojsko lwów przy hetmanie jeleniu";
+puzzles[10] = "Kto ma złota worek, przed tym wszystkie drzwi otworem";
+puzzles[11] = "Lepszy własny chleb niż pożyczona bułka";
+puzzles[12] = "Nowego kłamstwa słucha się chętniej niż starej prawdy";
+puzzles[13] = "Służ panu wiernie on ci za to pierdnie";
+puzzles[14] = "Lepszy gram handlu niż kilo roboty";

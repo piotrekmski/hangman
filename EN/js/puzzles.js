@@ -1,0 +1,16 @@
+var puzzles = new Array(15);
+puzzles[0] = "The pen is mightier than the sword";
+puzzles[1] = "When in Rome do as the Romans";
+puzzles[2] = "Actions speak louder than words";
+puzzles[3] = "The early bird catches the worm";
+puzzles[4] = "A chain is only as strong as its weakest link";
+puzzles[5] = "A bird in the hand is worth two in the bush";
+puzzles[6] = "Never look a gift horse in the mouth";
+puzzles[7] = "God helps those who help themselves";
+puzzles[8] = "Cleanliness is next to godliness";
+puzzles[9] = "A watched pot never boils";
+puzzles[10] = "Practice makes perfect";
+puzzles[11] = "Too many cooks spoil the broth";
+puzzles[12] = "Beauty is in the eye of the beholder";
+puzzles[13] = "Necessity is the mother of invention";
+puzzles[14] = "A penny saved is a penny earned";

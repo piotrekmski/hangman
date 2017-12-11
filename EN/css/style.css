@@ -1,0 +1,119 @@
+body
+{
+	background-color: #000000;
+	color:lightgray;
+	font-size: 28px;
+	font-family: 'Inconsolata', monospace;
+	font-weight: 700;
+}
+
+#container
+{
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#category {
+	width: 900px;
+	margin: 0 auto;
+	text-align: center;
+}
+#board
+{
+	width: 850px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	text-align: center;
+	font-size: 48px;
+	min-height: 100px
+	
+}
+
+#question
+{
+	width: 900px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	text-align: center;
+	font-size: 48px;
+	min-height: 60px
+	
+}
+
+#gibbet
+{
+	float: left;
+	width: 450px;
+	text-align:center;
+	min-height: 280px
+}
+
+#alphabet
+{
+	float:left;
+	width: 450px;
+	text-align: center;
+	min-height: 280px;
+}
+
+.letter
+{
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	padding: 5px;
+	margin: 5px;
+	border: 3px solid gray;
+	float: left;
+	cursor: pointer;
+	border-radius: 15px;
+}
+
+.letter:hover
+{
+	background-color: #222222;
+	color: white;
+	border:3px solid white;
+}
+
+
+.btn
+{
+	width: 86px;
+	height: 31px;
+	text-align: center;
+	padding: 5px;
+	
+	border: 3px solid gray;
+	float:right;
+	cursor: pointer;
+	border-radius: 15px;
+	display: table;
+    /*margin: 0 auto;*/
+    
+
+    margin-right: 63px; margin-top: -142px;
+}
+
+.btn:hover
+{
+	background-color: #222222;
+	color: white;
+	border:3px solid white;
+}
+
+.reset
+{
+	color: green;
+	cursor: pointer;
+	font-size:white;
+	
+}
+
+.reset:hover
+{
+	color:white;
+}
+
+
+
