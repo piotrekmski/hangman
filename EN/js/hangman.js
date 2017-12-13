@@ -31,12 +31,8 @@ function showPuzzle()
 window.onload = start;
 
 var letters1 = new Array(26);
-//
-var letters = new Array(26);
 
-letters[0] = "A";letters[1] = "B";letters[2] = "C";letters[3] = "D";letters[4] = "E";letters[5] = "F";letters[6] = "G";letters[7] = "H";letters[8] = "I";
-letters[9] = "J";letters[10] = "K";letters[11] = "L";letters[12] = "M";letters[13] = "N";letters[14] = "O";letters[15] = "P";letters[16] = "Q";letters[17] = "R";
-letters[18] = "S";letters[19] = "T";letters[20] = "U";letters[21] = "V";letters[22] = "W";letters[23] = "X";letters[24] = "Y"; letters[25] = "Z";
+var letters = ["A", "B", "C","D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P","Q","R", "S", "T", "U", "V","W", "X", "Y", "Z"];﻿
 
 String.prototype.setCharacter = function(place, character)
 		{
