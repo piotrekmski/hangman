@@ -1,6 +1,6 @@
 //Array with puzzles is in puzzles.js file
 //Puzzles randomizer
-var randomNumber = Math.floor((Math.random()*5));
+var randomNumber = Math.floor((Math.random()*15));
 var puzzle = puzzles[randomNumber];
 
 puzzle = puzzle.toUpperCase();
@@ -127,7 +127,7 @@ function start()
 			colors1();
 		}
 
-// colors settings after nine fails green changing colors of div of all letters wrom already uncovered puzzle1
+// colors settings after nine fails green changing colors of div of all letters from already uncovered puzzle1
 
 function colors()
 {
